@@ -1,0 +1,71 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*assinatura*/
+
+.sign {
+  width: 100px;
+  margin-left: 220px;
+  margin-right: 80px;
+}
+
+/* imagens*/
+.card_img {
+  width: 320px;
+  height: 270px;
+  overflow: visible;
+  margin: 10px;
+}
+
+.imgtop {
+  padding: 0;
+  margin: 0;
+}
+
+.imgtop img {
+  width: 100%;
+}
+/*menu*/
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #772e25;
+  position: sticky;
+  top: 0;
+  height: 80px;
+}
+body{
+  background-color: #edddd4;/*verificar outra solução pra essa merda*/
+}
+.container {
+  display: flex; /*permite alterar*/
+  width: auto;
+  height: ;
+  justify-content: center; /*centraliza só altera com display flex*/
+  flex-wrap: wrap; /*quebra de linha*/
+  background-color: #edddd4;
+}
+/*lista não ordenada*/
+ul {
+  overflow: hidden;
+  margin-right: 220px;
+}
+/*itens*/
+li {
+  display: inline-block;
+  margin: 10px 0 10px 10px;
+}
+
+/*link*/
+li a {
+  display: inline-block;
+  color: #edddd4;
+  padding: 20px;
+  text-decoration: none;
+}
