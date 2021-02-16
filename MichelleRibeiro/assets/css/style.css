@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2? family = Amiri & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*assinatura*/
+
+.sign {
+  width: 100px;
+  margin-left: 220px;
+  margin-right: 80px;
+}
+
+/* imagens*/
+.card_img {
+  width: 330px;
+  height: 320px;
+  overflow: visible;
+  margin: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+}
+
+
+.card_img:hover{
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.imgtop {
+  padding: 0;
+  margin: 0;
+}
+
+.imgtop img {
+  width: 100%;
+}
+/*menu*/
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #772e25;
+  position: sticky;
+  top: 0;
+  height: 80px;
+}
+body{
+  background-color: #edddd4;/*verificar outra solução pra essa merda*/
+}
+.container {
+  display: flex; /*permite alterar*/
+  width: auto;
+  height:0;
+  justify-content: center; /*centraliza só altera com display flex*/
+  flex-wrap: wrap; /*quebra de linha*/
+  background-color: #edddd4;
+}
+/*lista não ordenada*/
+ul {
+  overflow: hidden;
+  margin-right: 220px;
+}
+/*itens*/
+li {
+  display: inline-block;
+  margin: 10px 0 10px 10px;
+}
+
+/*link*/
+li a {
+  display: inline-block;
+  color: #edddd4;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'Amiri', serif;
+}
+
+/*About*/
+
+h2{
+
+font-family: 'Cinzel', serif;
+font-size: 18px;
+color: #283d3b;
+}
+
+h3{
+  
+  font-size: 11px;
+  color: #283d3b;
+}
+
+
+.about{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  }
+
+.profile{
+  width: 460px;
+  height: 100%;
+  overflow: visible;
+}
+
+.textabout{
+  font-size: 14px;
+  color: #283d3b;
+  font-family: 'Amiri', serif;
+  text-align: justify;
+  width: 360px;
+  padding-left:30px; 
+}
