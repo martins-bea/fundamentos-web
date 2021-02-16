@@ -1,4 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2? family = Amiri & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -15,10 +17,19 @@
 
 /* imagens*/
 .card_img {
-  width: 320px;
-  height: 270px;
+  width: 330px;
+  height: 320px;
   overflow: visible;
   margin: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+}
+
+
+.card_img:hover{
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .imgtop {
@@ -46,7 +57,7 @@ body{
 .container {
   display: flex; /*permite alterar*/
   width: auto;
-  height: ;
+  height:0;
   justify-content: center; /*centraliza só altera com display flex*/
   flex-wrap: wrap; /*quebra de linha*/
   background-color: #edddd4;
@@ -68,4 +79,42 @@ li a {
   color: #edddd4;
   padding: 20px;
   text-decoration: none;
+  font-family: 'Amiri', serif;
+}
+
+/*About*/
+
+h2{
+
+font-family: 'Cinzel', serif;
+font-size: 18px;
+color: #283d3b;
+}
+
+h3{
+  
+  font-size: 11px;
+  color: #283d3b;
+}
+
+
+.about{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  }
+
+.profile{
+  width: 460px;
+  height: 100%;
+  overflow: visible;
+}
+
+.textabout{
+  font-size: 14px;
+  color: #283d3b;
+  font-family: 'Amiri', serif;
+  text-align: justify;
+  width: 360px;
+  padding-left:30px; 
 }
