@@ -1,5 +1,74 @@
-*{
-    padding: 0;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Truculenta:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@300&family=Josefin+Slab:wght@300&family=Open+Sans+Condensed:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
+nav {
+  background-color: #07889b;
+  font-family: "Truculenta", sans-serif;
+  font-size: 25px;
+}
+
+body {
+  background-color: #eeaa7b;
+}
+
+h2, h3, h4 {
+  font-family: "Truculenta", sans-serif;
+  font-size: 30px;
+}
+h5{
+    font-size: 20px;
+    text-align:justify;
+    color:#black; 
+    font-family: 'Imbue', serif;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+   
+}
+
+.card-body{
+
+  background-color:#e9ecef;
+}
+.card-text{
+    font-family: "Truculenta", sans-serif;
+    font-size: 15px;
+}
+.card-title{
+
+    font-size: 20px;
+}
+.tm-social {
+  width: 40px;
+  height: 40px;
+}
+.text-center {
+  color: white;
+}
+.img-promo {
+  width: 100%;
+}
+.img-rodape {
+  width: 100%;
+}
+
+.form-group{
+    font-family: "Truculenta", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.stretched-link{
+
+background-color: #66b9bf;
+color:white;
+font-weight: bold;
+
+}
+
+.stretched-link:hover{
+color:#07889b;
+}
